@@ -45,7 +45,7 @@ if ($_POST) { //if submitted data
 
     <h1>Login</h1>
 
-    <!-- <?php if (!isset($_SESSION["iduser"])) { ?> if theres no user in session show this form -->
+    <?php if (!isset($_SESSION["iduser"])) { ?>  <!--if theres no user in session show this form -->
       <form method="POST" class="loginform">
 
         <label for="email">Email</label>
